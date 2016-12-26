@@ -46,5 +46,19 @@ public class HttpClient {
         return getRetrofit().create(clazz);
     }
 
+    //使用封装的demo
+//        apiService.login()
+//        .compose(RxSchedulersHelper.io_main())
+//        .compose(RxResultHelper.handleResult())
+//        .subscribe(new RxSubscriber<Object object>() {
+//           @Override
+//           public void _onNext(Object object) {
+//            // 处理实体类
+//           }
+//
+//           @Override
+//            public void _onError(String msg) {
+//              ToastUtil.showShort(mActivity, msg);
+//          });
 
 }

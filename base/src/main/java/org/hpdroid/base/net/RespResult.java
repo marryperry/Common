@@ -9,6 +9,7 @@ import java.io.Serializable;
  */
 
 public class RespResult<T> implements Serializable {
+
     @SerializedName("status")
     private int status;
     @SerializedName("msg")
